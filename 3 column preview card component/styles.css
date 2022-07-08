@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.container {
+    /* border-radius: 12px; */
+    display: grid;
+    align-items:center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px auto;
+    max-width:950px;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+}
+
+.column {
+    /* width: 315px; */
+    height: 400px;
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-column {
+    background-color: #E28525 ;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.second-column {
+    background-color: #016972 ;
+}
+
+.third-column{
+    background-color: #00403F;
+    border-radius: 0px 12px 12px 0px;
+}
+
+.img img {
+    height: 40px;
+    width: 64px
+}
+
+.heading {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.button {
+    align-items: center;
+    border-radius: 25px;
+    border: none;
+    justify-items: center;
+    height: 50px;
+    width: 145px;
+    /* margin-top:80px; */
+}
+
+.first-column .button a {
+    color: #E28525 ;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.second-column .button a {
+    color: #016972 ;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.third-column .button a {
+    color: #00403F ;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* MOBILE  */
+@media screen and (min-width: 300px) and (max-width: 760px){
+    .container {
+        grid-template-columns: repeat(1, 3fr);
+        margin-top: 0px;
+    }
+
+    .first-column {
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .third-column{
+        background-color: #00403F;
+        border-radius: 0px 0px 12px 12px;
+    }
+}

@@ -2,7 +2,6 @@
 
 ## Welcome! 👋 Thanks for checking out thing Challenge
 
-[Figma file link] (https://www.figma.com/file/URmWtGfvaFxV99JpEIpAkh/%F0%9F%94%B4-3---Column-Preview-Card-Component-%F0%9F%94%B4?node-id=3%3A2)
 [Frontend Metor Link] (https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
 Your challenge is to build out this preview card component and get it looking as close to the design as possible. Your users should be able to:
